@@ -53,12 +53,12 @@ Example Playbook
 -----------
     - hosts: servers
       roles:
-         - { role: mrlesmithjr.domain-join }
+         - role: mrlesmithjr.network-tweaks
 #### GitHub
 -----------
     - hosts: servers
       roles:
-        - ansible-domain-join
+        - role: ansible-network-tweaks
 
 License
 -------
